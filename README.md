@@ -6,13 +6,22 @@
 
 
 
-[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)1. Transcribes lecture audio (upload MP3/WAV or live microphone) using Whisper with automatic backend selection (faster-whisper -> transformers -> openai-whisper fallback).
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red.svg)](https://streamlit.io/)2. Summarizes long transcripts into structured notes (adjustable length) using T5 or BART.
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red.svg)](https://streamlit.io/)
 
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.7+-orange.svg)](https://pytorch.org/)3. Generates quizzes (MCQs) & flashcards (JSON export) via keyword extraction (KeyBERT / spaCy fallback).
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.7+-orange.svg)](https://pytorch.org/)
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)4. Exports PDF, DOCX, and Flashcards JSON.
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
+1. Transcribes lecture audio (upload MP3/WAV or live microphone) using Whisper with automatic backend selection (faster-whisper -> transformers -> openai-whisper fallback).
+
+2. Summarizes long transcripts into structured notes (adjustable length) using T5 or BART.
+
+3. Generates quizzes (MCQs) & flashcards (JSON export) via keyword extraction (KeyBERT / spaCy fallback).
+
+4. Exports PDF, DOCX, and Flashcards JSON.
 
 5. Simple Streamlit web UI (tabs: Upload Mode, Live Mode, Results & Export). Ready for deployment on Hugging Face Spaces or Streamlit Community Cloud.
 

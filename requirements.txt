@@ -1,0 +1,20 @@
+streamlit>=1.37.0
+transformers>=4.40.0
+torch>=2.1.0
+accelerate>=0.28.0
+openai-whisper>=20231117
+keybert>=0.8.0
+spacy>=3.7.0
+reportlab>=4.0.0
+python-docx>=1.1.0
+soundfile>=0.12.1
+pyaudio; platform_system == 'Windows'  # optional, sounddevice used primarily
+sounddevice>=0.4.6
+numpy>=1.24.0
+sentencepiece>=0.1.99
+huggingface_hub>=0.23.0
+sentence-transformers>=2.7.0
+faster-whisper>=1.0.3
+librosa>=0.10.1
+
+# Optional: for better GPU performance you may install specific torch wheels manually.

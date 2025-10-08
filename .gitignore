@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model cache
+.cache/
+models/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Presentation assets (temporary files - not part of main project)
+flowcharts/
+PRESENTATION_CONTENT.md
+SCREENSHOT_GUIDE.md
+PRESENTATION_ASSETS_SUMMARY.md
+PRESENTATION_QUICK_REFERENCE.md
+QUALITY_IMPROVEMENT_GUIDE.md
+install_pytorch_gpu.md
+generate_flowchart_matplotlib.py
+generate_flowchart.py
+generate_screenshots.py
+extract_ppt_structure.py
+ppt_structure.json
+MANUAL_SCREENSHOT_GUIDE.md
+
+# PowerPoint files
+*.pptx
+*.ppt
+
+# Screenshots
+screenshots/
+
+# Audio test files (not part of repository)
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+
+# Document outputs (generated during runtime)
+*.pdf
+*.docx
+
+# Export outputs (generated files)
+exports/
+output/
+*.json
+
+# Logs
+*.log
+logs/
